@@ -1,3 +1,10 @@
 ** Reflect: Initializing a Repository
 * What happens when you initialize a repository? Why do you need to do it?
 Git establishes a lot of configuration files required for the git software to track changes to the files in the repository 
+
+** Reflect: Staging Area
+* How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is a temporary directory, where you can make drafts and changes without cluttering your commit history up.  This is beneficial for tria-and-error, 
+where you dont want to confuse collaborating partners, for instance.  
+
+
