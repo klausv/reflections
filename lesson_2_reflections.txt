@@ -7,4 +7,7 @@ Git establishes a lot of configuration files required for the git software to tr
 Staging area is a temporary directory, where you can make drafts and changes without cluttering your commit history up.  This is beneficial for tria-and-error, 
 where you dont want to confuse collaborating partners, for instance.  
 
+** Reflect: Commit Size
+* How can you use the staging area to make sure you have one commit per logical change?
+By cumulating the modifications until you are happy to commit a logical change
 
