@@ -1,0 +1,3 @@
+** Reflect: Initializing a Repository
+* What happens when you initialize a repository? Why do you need to do it?
+Git establishes a lot of configuration files required for the git software to track changes to the files in the repository 

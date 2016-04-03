@@ -1,0 +1,76 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Easier to find the differences, can just focus on understanding the changes
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    Bugs sneak in all the time, and you dont discover them until later.  Keeps track of development and the introduction of errors.  
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+    Cons:  you dont always do it.  Pros: you are more conscious about it, and it is probably easier to recap.  Besides, provided you do remember to save code manually, it is much more meaningful to backtrack it.
+    The advantage of storing codes at regular intervals, can be caretaken by autosave, whichi should not be confused with version control.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Coding often involves multiple files, calling functions from each other, which means the files needs to be consisten file version-wide across the files not only within each file.
+Google Docs and its like is meant for documents, which are usually only one chunk of a file.
+
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    git log shows the history of various commits made.
+    git diff shows the difference between two commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    You dont need to worry about making mistakes, because you can always go back to the previous version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Version control for
+    - Xpress code, WindFarmDesigns
+    - WindFarmDesigns, the python code
+    - ParkOptimizer 2.0
+
+
+** Reflect: Using History for Efficiency
+*How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Sometimes, you dont immediately discover the error.  An error may have been done many commit's ago, and you finally realise 3 months later. Duh.
+If you are really stuck and realise, that your path of approach was wrong, you can now go back to and continue from where you embarked on that
+critical path.
+Moreover, discovering errors are not always that easy. By tracking back the history, you are able to identify when things went wrong.
+Finally, you'd like to have working versions while your improve on new versions.
+
+
+** Reflect: Multi-File Commits
+* Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+In programming, code is often organised into multiple, interdependent files.  Thus, running the code will require all the files to be of the same version.
+Therefore, keeping track of all the files in one commit is pertinent.
+Other version controls, like Google Docs are not designed to consider multiple files, because documents are often written in just one big file.
+
+** Reflect: Using Git to View History
+* How can you use the commands git log and git diff to view the history of files?
+Can use git log to find which changes was made (if comments are useful for each commit).  Then the diff can be used to see what changes was made to previous version, to identify potential problems. 
+
+
+
+** Reflect: Confidence from Version Control
+* How might using version control make you more confident to make changes that could break something?
+Because there version control is like an "undo"-button, so you can rewind. 
+
+**Reflect: How Do You Want to Use Git?
+* Now that you have your workspace set up, what do you want to try using Git for?
+Git will be a step on the way to use GitHub, which is to be used for software and modeling projects. 
+
+git log 
+git diff fileID1 fileID2
+git checkout  fileID
+git clone http://file
