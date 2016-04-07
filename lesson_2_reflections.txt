@@ -24,4 +24,8 @@ Its useful to know how the branches are branched.
 Merging combines the codse of two branches, unless there is a conflict. 
 Diagrammatic representation shows branching from the same trunk, and merging in terms of branches joined into one trunk, the commits being intertwined by dates.
 
+** Reflect: Automatic vs. Manual Merging
+* What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Its not clear how two branches can commit, there will be the human interpretation necessary,  because we have no good way of knowing the intention of which of the cofliting parts of the code is the desired one from the users point of view. Only partially when there is little degree of conflict. 
 
